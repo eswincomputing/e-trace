@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: MPL-2.0
+#
+# Copyright 2024 Beijing ESWIN Computing Technology Co., Ltd.  
+#
+
+.
+├── README
+├── rtl                       RTL folder
+│   ├── trenc_algo.sv
+│   ├── trenc_apb_reg.sv
+│   ├── trenc_atb_data.sv
+│   ├── trenc_filter.sv
+│   ├── trenc_pkg.sv
+│   ├── trenc_pktcomb.sv
+│   ├── trenc_sync_fifo.sv
+│   └── trenc_top.sv
+└── simulation                the folder for compile & simulation
+    ├── filelist.lst          RTL file list
+    └── makefile              makefile
+
